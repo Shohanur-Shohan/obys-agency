@@ -1,5 +1,9 @@
 {
 	"devDependencies": {
 		"tailwindcss": "^3.4.17"
+	},
+	"scripts": {
+  		"build:css": "tailwindcss -i ./assets/css/output.css -o ./dist/styles.css --minify"
 	}
+
 }
