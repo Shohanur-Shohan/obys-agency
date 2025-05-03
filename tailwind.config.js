@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./*.{html,js}", "./components/**/*.{html,js}"], // Adjust based on your project structure
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        PlainLight: ['PlainLight', 'sans-serif'],
+        PlainRegular: ['PlainRegular', 'sans-serif'],
+        LatoLight: ['LatoLight', 'sans-serif'],
+        LatoRegular: ['LatoRegular', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
