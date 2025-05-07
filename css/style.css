@@ -1,42 +1,4 @@
-@charset "UTF-8";
-/*-----------------------------------------------------------------------------------
 
-  Theme Name: Shawn - Personal Portfolio/CV
-  Author: 
-  Support: 
-  Description: 
-  Version: 1.0
-
------------------------------------------------------------------------------------
-
-/************ TABLE OF CONTENTS ***************
-
-
-/*----------------------------------------*/
-/* VARIBALES CSS START
-/*----------------------------------------*/
-/* :root {
-  --primary: #0E0F11;
-  --secondary: #0E0F11;
-  --border: #0E0F11;
-  --bg: #0E0F11;
-  --theme: #AFF42B;
-  --black: #0E0F11;
-  --black-2: #0E0F11;
-  --white: #FFFFFF;
-  --white-2: #FFFFFF;
-  --action: #AFF42B;
-} */
-
-/*----------------------------------------*/
-/* TYPOGRAPHY CSS START
-/*----------------------------------------*/
-
-
-
-/* :root {
-  font-family: "PlainRegular", sans-serif;
-} */
 
 * {
   margin: 0;
@@ -44,7 +6,6 @@
 }
 
 body {
-  /* font-family: var(--font_instrumentsans); */
   margin: 0;
   padding: 0;
 }
@@ -62,10 +23,6 @@ h6,
 span {
   padding: 0;
   margin: 0;
-  /* color: var(--primary); */
-  /* line-height: 1.22; */
-  /* font-family: var(--font_instrumentsans); */
-  /* font-weight: 500; */
 }
 
 ul,
@@ -82,4 +39,43 @@ a {
   text-decoration: none;
   transition: all 0.3s;
   color: inherit;
+}
+
+.changeFont{
+  animation-name: change-Font;
+  animation-duration: 3s;
+  animation-iteration-count: 20;
+}
+
+@keyframes change-Font {
+  0% {
+    font-family: PlainRegular;
+    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    font-weight: 500;
+  }
+  25% {
+    font-family: LatoLight;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 300;
+  }
+  50% {
+    font-family: PlainRegular;
+    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    font-weight: 500;
+  }
+  75% {
+    font-family: LatoLight;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 300;
+  }
+  100% {
+    font-family: PlainRegular;
+    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    font-weight: 500;
+  }
 }
