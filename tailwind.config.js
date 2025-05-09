@@ -9,25 +9,7 @@ module.exports = {
         LatoLight: ['LatoLight', 'sans-serif'],
         LatoRegular: ['LatoRegular', 'sans-serif'],
       },
-      keyframes: {
-        changeFont: {
-          '0%': {
-            fontFamily: 'LatoLight',
-            WebkitTextStroke: '1px #fff',
-            color: '#fff',
-            fontWeight: '300',
-          },
-          '100%': {
-            fontFamily: 'PlainRegular',
-            WebkitTextStroke: '1px #fff',
-            color: 'transparent',
-            fontWeight: '300',
-          },
-        },
-      },
-      animation: {
-        changeFont: 'changeFont 1.5s ease-in-out forwards',
-      },
+      
     },
   },
   plugins: [],
