@@ -19,12 +19,12 @@
 </head>
 
 
-<body>
-  <div id="custom-cursor" class="w-[40px] h-[40px] border-[#ffffff73] border fixed z-[9999] rounded-full"></div>
+<body class="cursor-none">
+  <div id="custom-cursor" class="w-[40px] h-[40px] border-[#ffffff98] border  mix-blend-difference fixed z-[9999] rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
   <!-- //loader -->
    <!-- removed fixed -->
-  <div id="loader" class="h-[100vh] flex items-center w-full font-PlainRegular z-[999] bg-[#0B0B0B] text-white py-[0vh] px-[5vw]">
+  <div id="loader" class="h-[100vh] flex fixed items-center w-full font-PlainRegular z-[999] bg-[#0B0B0B] text-white py-[0vh] px-[5vw]">
     <div class="w-full">
         <div class="uppercase py-[80px] overflow-hidden">
           <div class="overflow-hidden ">
@@ -52,7 +52,7 @@
 
   
 <!-- // removed relative -->
-<div id="main" class="bg-[#000000] min-h-[100vh]">
+<div id="main" class="bg-[#000000] min-h-[100vh] relative">
 
   <!-- page 1 start -->
   <div id="page1" class="h-[100vh] bg-[#151515] px-4">
@@ -154,8 +154,8 @@
   <!-- page 1 end -->
 
   
-  <div id="page2" class="h-[100vh] bg-[#ff2a2a]"></div>
-  <div id="page3" class="h-[100vh] bg-[#ffffff]"></div>
+  <!-- <div id="page2" class="h-[100vh] bg-[#ff2a2a]"></div> -->
+  <!-- <div id="page3" class="h-[100vh] bg-[#ffffff]"></div> -->
 </div>
 
 
@@ -164,7 +164,7 @@
   <!-- Vendor JS Files -->
   <script src="./js/gsap.min.js"></script>
   <script src="./js/ScrollTrigger.min.js"></script>
-  <!-- <script src="./js/main.js"></script> -->
+  <script src="./js/main.js"></script>
 
 
 
