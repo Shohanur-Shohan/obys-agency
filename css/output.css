@@ -602,10 +602,6 @@ video {
   z-index: 999;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -741,22 +737,6 @@ video {
 
 .border {
   border-width: 1px;
-}
-
-.border-\[2px\] {
-  border-width: 2px;
-}
-
-.border-\[1\.5px\] {
-  border-width: 1.5px;
-}
-
-.border-\[\#ffffff73\] {
-  border-color: #ffffff73;
-}
-
-.border-\[\#ffffffc4\] {
-  border-color: #ffffffc4;
 }
 
 .border-\[\#ffffff98\] {
