@@ -3,7 +3,9 @@
 		"tailwindcss": "^3.4.17"
 	},
 	"scripts": {
-  		"build:css": "tailwindcss -i ./assets/css/output.css -o ./dist/styles.css --minify"
+		"build:css": "tailwindcss -i ./assets/css/output.css -o ./dist/styles.css --minify"
+	},
+	"dependencies": {
+		"prettier-plugin-tailwindcss": "0.0.0-insiders.d539a72"
 	}
-
 }

@@ -3,7 +3,7 @@
 
 
 step 1: run this code in terminal 
- npx tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch
+ npx tailwindcss -i ./css/input.css -o ./css/output.css --watch
 
  step 2: turn on live server
 
@@ -18,6 +18,11 @@ step 1: run this code in terminal
        </div>
       <!-- left -->
       <!-- center -->
+       <div class="">
+        h
+       </div>
+      <!-- center -->
+      <!-- right -->
        <div class="w-fit">
         <ul class="flex items-center justify-center w-fit">
           <li><a href="#">{Home}</a></li>
@@ -27,15 +32,9 @@ step 1: run this code in terminal
           <li><a href="#">{News}</a></li>
           <li><a href="#">{Contact}</a></li>
         </ul>
-       </div>
-      <!-- center -->
-      <!-- right -->
-       <div class="w-fit">
-        <img src="../assets/images/logo/logo.svg" class="w-[29px] h-[39px]"/>
       </div>
       <!-- right -->
-      
     </nav>
   </header>
   <!-- Header area end -->
-# obys-agency
+<!-- # obys-agency -->

@@ -1,0 +1,21 @@
+
+
+@font-face {
+    font-family: 'PlainLight';
+    src: url('/assets/fonts/plain-light-webfont.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'PlainRegular';
+    src: url('/assets/fonts/plain-regular-webfont.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'LatoLight';
+    src: url('/assets/fonts/silkserif-lightitalic-webfont.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'LatoRegular';
+    src: url('/assets/fonts/silkserif-regularitalic-webfont.ttf') format('truetype');
+  }
