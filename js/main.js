@@ -32,7 +32,10 @@ tl.from("#hero-counter1, #hero-counter2", {
 tl.to("#loader", {
     opacity: 0,
     duration: 0.3,
-    delay: 3
+    delay: 3,
+    onComplete: ()=>{
+        document.querySelector("#loader").style.display = "none";   //display none of loader after load done
+    }
 });
 
 // Reveal page
@@ -50,6 +53,8 @@ document.addEventListener("mousemove", (dets)=>{
         top: dets.y
     })
 })
+
+
 
 
 
