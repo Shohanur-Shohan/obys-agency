@@ -6,7 +6,6 @@
 		"build:css": "tailwindcss -i ./assets/css/output.css -o ./dist/styles.css --minify"
 	},
 	"dependencies": {
-		"prettier-plugin-tailwindcss": "0.0.0-insiders.d539a72",
-		"sheryjs": "1.0.0-beta.0.1.8"
+		"prettier-plugin-tailwindcss": "0.0.0-insiders.d539a72"
 	}
 }
