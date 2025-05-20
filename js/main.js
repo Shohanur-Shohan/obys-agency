@@ -1,3 +1,4 @@
+
 // Start counter FIRST — OUTSIDE timeline
 const heroCounter = document.querySelector("#hero-counter1");
 let heroCount = 0;
@@ -40,3 +41,16 @@ tl.from("#page1", {
     duration: 0.6,
     y: 1200,
 });
+
+
+//cursor animated
+document.addEventListener("mousemove", (dets)=>{
+    gsap.to("#custom-cursor",{
+        left: dets.x,
+        top: dets.y
+    })
+})
+
+
+
+

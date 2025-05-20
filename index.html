@@ -13,17 +13,19 @@
   <link rel="icon" type="image/x-icon" href="../assets/images/favicon.png">
   <!-- Template Main CSS File -->
   <link href="./css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" />
   <link rel="stylesheet" href="./css/style.css">
 
 
 </head>
 
 
-<body>
+<body class="cursor-none">
+  <div id="custom-cursor" class="w-[40px] h-[40px] border-[#ffffff98] border  mix-blend-difference fixed z-[9999] rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
   <!-- //loader -->
    <!-- removed fixed -->
-  <div id="loader" class="h-[100vh] flex items-center w-full font-PlainRegular z-[999] bg-[#0B0B0B] text-white py-[0vh] px-[5vw]">
+  <div id="loader" class="h-[100vh] flex fixed items-center w-full font-PlainRegular z-[999] bg-[#0B0B0B] text-white py-[0vh] px-[5vw]">
     <div class="w-full">
         <div class="uppercase py-[80px] overflow-hidden">
           <div class="overflow-hidden ">
@@ -51,7 +53,7 @@
 
   
 <!-- // removed relative -->
-<div id="main" class="bg-[#000000] min-h-[100vh]">
+<div id="main" class="bg-[#000000] min-h-[100vh] relative">
 
   <!-- page 1 start -->
   <div id="page1" class="h-[100vh] bg-[#151515] px-4">
@@ -61,7 +63,7 @@
       <nav class="max-w-[1760px] py-[2rem] sm:py-[3rem] flex mx-auto items-center justify-between">
         <!-- left -->
          <div class="w-full sm:w-1/4  flex items-center justify-between sm:justify-start gap-[35px]">
-          <button class="w-fit">
+          <button class="w-fit magnet-target">
             <svg class="" width="12" height="12" viewBox="0 0 12 12" fill="none">
               <rect y="10" width="2" height="2" fill="#fff"></rect>
               <rect y="5" width="2" height="2" fill="#fff"></rect>
@@ -93,7 +95,7 @@
         <!-- right -->
          <div class="items-center justify-between hidden w-3/4 sm:flex">
           <!-- slug -->
-          <div class="leading-4 text-[#f6f6f6] invisible lg:visible tracking-[-0.015em] mb-[-45px] font-PlainRegular">
+          <div class="leading-4 magnet-target text-[#f6f6f6] invisible lg:visible tracking-[-0.015em] mb-[-45px] font-PlainRegular">
             <h3>Obys—</h3>
             <h3>Creative</h3>
             <h3>Design</h3>
@@ -106,7 +108,7 @@
               <li><a href="#">Works</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contacts</a></li>
-            </ul>
+            </ul>            
           </div>
            <!-- menu -->
          </div>
@@ -116,33 +118,35 @@
     <!-- Header area end -->
      
     <!-- hero-section start -->
-     <div class="w-full">
-      <div class="max-w-[1760px] py-[3rem] flex mx-auto items-center justify-between">
-        <div class="w-1/4 flex items-center justify-start gap-[35px]">
-          01
-        </div>
-        <div class="flex items-center justify-between w-3/4">
-          <!-- //hero text reveal -->
-          <!-- removed fixed -->
-            <div id="hero-section" class="flex items-center w-full text-white font-PlainRegular">
-              <div class="w-full">
-                  <div class="uppercase py-[80px] overflow-hidden">
-                    <div class="overflow-hidden ">
-                      <h1 id="hero-text" class="text-[7.2vw] leading-[8rem] font-medium">We Design</h1>
+     <div class="w-full h-[50vh] sm:h-[60vh] md:h-[80vh]">
+      <div>
+        <div class="max-w-[1760px] h-fit pt-[3rem] lg:pt-[8rem] pb-[4rem] lg:flex mx-auto items-start justify-between">
+          <div class="flex items-start lg:justify-end lg:w-1/4 lg:pr-[90px]">
+            <h1 class="text-white font-LatoLight text-[35px] sm:text-[50px] md:text-[65px]">01</h1>
+          </div>
+          <div class="flex items-start justify-start lg:items-center lg:justify-between lg:w-3/4">
+            <!-- //hero text reveal -->
+            <!-- removed fixed -->
+              <div id="hero-section" class="flex items-center w-full text-white font-PlainRegular">
+                <div class="w-full">
+                    <div class="overflow-hidden uppercase">
+                      <div class="overflow-hidden ">
+                        <h1 id="hero-text" class="2xl:text-[7.2vw] xl:text-[8vw] text-[12vw] sm:text-[10vw] lg:text-[8vw] 4xl:leading-[7.8rem] 3xl:leading-[7.2rem] 2xl:leading-[6.8rem] leading-[3.8rem] sm:leading-[4.5rem] md:leading-[5.5rem] xl:leading-[6rem]  font-medium">We Design</h1>
+                      </div>
+                      <div class="overflow-hidden">
+                        <h1 id="hero-text" class="2xl:text-[7.2vw] xl:text-[8vw] text-[12vw] sm:text-[10vw] lg:text-[8vw] 4xl:leading-[7.8rem] 3xl:leading-[7.2rem] 2xl:leading-[6.8rem] leading-[3.8rem] sm:leading-[4.5rem] md:leading-[5.5rem] xl:leading-[6rem]  font-medium">Unique</h1>
+                      </div>
+                      <div class="pb-4 overflow-hidden lg:pb-7">
+                        <h1 id="hero-text" class="2xl:text-[7.2vw] xl:text-[8vw] text-[12vw] sm:text-[10vw] lg:text-[8vw] 4xl:leading-[7.8rem] 3xl:leading-[7.2rem] 2xl:leading-[6.8rem] leading-[3.8rem] sm:leading-[4.5rem] md:leading-[5.5rem] xl:leading-[6rem]  font-medium"><span class="underline decoration-[5px] sm:decoration-[6px] lg:decoration-[8px] xl:decoration-[10px]">Web</span>/<span class="underline decoration-[5px] sm:decoration-[6px] lg:decoration-[8px] xl:decoration-[10px]">Graphic</span></h1>
+                      </div>
+                      <div class="overflow-hidden 4xl:mt-[-15px] 3xl:mt-[-20px] 2xl:mt-[-15px] lg:mt-[-20px] mt-[-10px]">
+                        <h1 id="hero-text" class="2xl:text-[7.2vw] xl:text-[8vw] text-[12vw] sm:text-[10vw] lg:text-[8vw] 4xl:leading-[7.8rem] 3xl:leading-[7.2rem] 2xl:leading-[6.8rem] leading-[3.8rem] sm:leading-[4.5rem] md:leading-[5.5rem] xl:leading-[6rem]  font-medium">Experience</h1>
+                      </div>
                     </div>
-                    <div class="overflow-hidden">
-                      <h1 id="hero-text" class="text-[7.2vw] leading-[8rem] font-medium">Unique</h1>
-                    </div>
-                    <div class="overflow-hidden pb-7">
-                      <h1 id="hero-text" class="text-[7.2vw] leading-[8rem] font-medium"><span class="underline decoration-[10px]">Web</span>/<span class="underline decoration-[10px]">Graphic</span></h1>
-                    </div>
-                    <div class="overflow-hidden mt-[-10px]"></div>
-                      <h1 id="hero-text" class="text-[7.2vw] leading-[8rem] font-medium">Experience</h1>
-                    </div>
-                  </div>
-              </div> 
-            </div>
-          <!-- //loader -->
+                </div>
+              </div>
+            <!-- //loader -->
+          </div>
         </div>
       </div>
      </div>
@@ -151,8 +155,8 @@
   <!-- page 1 end -->
 
   
-  <div id="page2" class="h-[100vh] bg-[#ff2a2a]"></div>
-  <div id="page3" class="h-[100vh] bg-[#ffffff]"></div>
+  <!-- <div id="page2" class="h-[100vh] bg-[#ff2a2a]"></div> -->
+  <!-- <div id="page3" class="h-[100vh] bg-[#ffffff]"></div> -->
 </div>
 
 
@@ -161,7 +165,8 @@
   <!-- Vendor JS Files -->
   <script src="./js/gsap.min.js"></script>
   <script src="./js/ScrollTrigger.min.js"></script>
-  <!-- <script src="./js/main.js"></script> -->
+  <script  type="text/javascript"  src="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.js"></script>
+  <script src="./js/main.js"></script>
 
 
 
