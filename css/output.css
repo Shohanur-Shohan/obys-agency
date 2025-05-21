@@ -1070,4 +1070,12 @@ video {
   .\34xl\:leading-\[7\.8rem\] {
     line-height: 7.8rem;
   }
+
+  .\34xl\:leading-\[8\.5rem\] {
+    line-height: 8.5rem;
+  }
+
+  .\34xl\:leading-\[8rem\] {
+    line-height: 8rem;
+  }
 }
