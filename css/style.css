@@ -84,3 +84,10 @@ a {
     font-weight: 500;
   }
 }
+
+/* hero-image-animation */
+#hero-image-animation:hover{
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+}
+
