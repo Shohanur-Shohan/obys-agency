@@ -941,6 +941,12 @@ video {
   mix-blend-mode: difference;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 @media (min-width: 640px) {
   .sm\:flex {
     display: flex;
@@ -1093,5 +1099,9 @@ video {
 
   .\34xl\:leading-\[8rem\] {
     line-height: 8rem;
+  }
+
+  .\34xl\:leading-\[7\.8rem\] {
+    line-height: 7.8rem;
   }
 }

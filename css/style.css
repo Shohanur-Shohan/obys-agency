@@ -88,6 +88,7 @@ a {
 /* hero-image-animation */
 #hero-image-animation:hover{
   -webkit-text-stroke: 1px #fff;
+  text-decoration: none;
   color: transparent;
 }
 
