@@ -69,4 +69,3 @@ tl.from("#hero-text", {
 
 // /hero-image-animation
 
-
