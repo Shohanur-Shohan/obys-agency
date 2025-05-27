@@ -61,5 +61,12 @@ Shery.makeMagnet(".magnet-target", {
   });
 
 
+// Start text reveal of hero after loader animation
+tl.from("#hero-text", {
+    y: 150,
+    stagger: 0.2
+})
+
+// /hero-image-animation
 
 
