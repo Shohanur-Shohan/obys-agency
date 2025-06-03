@@ -619,6 +619,14 @@ video {
   margin-top: -10px;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-\[-1rem\] {
+  margin-right: -1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -645,6 +653,10 @@ video {
 
 .h-\[50vh\] {
   height: 50vh;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-fit {
@@ -737,6 +749,10 @@ video {
 
 .border-\[1\.5px\] {
   border-width: 1.5px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-\[\#ffffff98\] {
@@ -1075,5 +1091,9 @@ video {
 
   .\34xl\:leading-\[8rem\] {
     line-height: 8rem;
+  }
+
+  .\34xl\:leading-\[7\.8rem\] {
+    line-height: 7.8rem;
   }
 }
