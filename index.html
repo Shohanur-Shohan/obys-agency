@@ -20,7 +20,7 @@
 </head>
 
 
-<body class="">
+<body class="bg-[#151515]">
   <div id="custom-cursor" class="w-[40px] h-[40px] border-[#ffffff98] border-[1.5px]  mix-blend-difference fixed z-[9999] rounded-full transform -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
   <!-- //loader -->
@@ -56,10 +56,10 @@
 <div id="main" class="bg-[#000000] min-h-[100vh] relative">
 
   <!-- page 1 start -->
-  <div id="page1" class="h-[100vh] bg-[#151515] px-4">
+  <div id="page1" class="h-[100vh] bg-[#151515]">
 
     <!-- Header area start -->
-    <header class="w-full">
+    <header class="w-full px-4">
       <nav class="max-w-[1760px] py-[2rem] sm:py-[3rem] flex mx-auto items-center justify-between">
         <!-- left -->
          <div class="w-full sm:w-1/4  flex items-center justify-between sm:justify-start gap-[35px]">
@@ -118,7 +118,7 @@
     <!-- Header area end -->
      
     <!-- hero-section start -->
-     <div class="w-full h-[50vh] sm:h-[60vh] md:h-[80vh]">
+     <div class="w-full h-[50vh] sm:h-[60vh] md:h-[80vh] px-4">
       <div>
         <div class="max-w-[1760px] h-fit pt-[3rem] lg:pt-[8rem] pb-[4rem] lg:flex mx-auto items-start justify-between">
           <div class="flex items-start lg:justify-end lg:w-1/4 lg:pr-[90px]">
@@ -153,6 +153,32 @@
       </div>
      </div>
     <!-- hero-section start -->
+
+    <!-- video section start-->
+    <div class="w-full bg-[#151515] h-[50vh] sm:h-[60vh] md:h-[80vh]">
+      <div>
+        <div class="max-w-[1760px] h-fit pb-[4rem] lg:flex ml-auto items-start justify-between">
+          <div class="flex items-start lg:justify-end lg:w-1/4 lg:pr-[90px]">
+            <h1 class="text-white font-LatoLight text-[35px] sm:text-[50px] md:text-[65px]"></h1>
+          </div>
+          <div class="flex items-start justify-start lg:items-center lg:justify-between lg:w-3/4">
+            <!-- //hero text reveal -->
+            <!-- removed fixed -->
+              <div id="video-section" class="flex mr-[-1rem] items-center w-full text-white font-PlainRegular">
+                <div class="w-full">
+                    <div class="overflow-hidden uppercase">
+                      <video class="w-full h-auto" autoplay  muted loop playsinline poster="./assets/images/Showreel-preview.jpg">
+                        <source type="video/mp4" src="./assets/images/showreel-video.mp4"/>
+                      </video>
+                    </div>
+                </div>
+              </div>
+            <!-- //loader -->
+          </div>
+        </div>
+      </div>
+     </div>
+    <!-- video section end-->
   </div>
   <!-- page 1 end -->
 
