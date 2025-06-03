@@ -655,6 +655,10 @@ video {
   height: 50vh;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
@@ -745,6 +749,10 @@ video {
 
 .border-\[1\.5px\] {
   border-width: 1.5px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-\[\#ffffff98\] {
@@ -1083,5 +1091,9 @@ video {
 
   .\34xl\:leading-\[8rem\] {
     line-height: 8rem;
+  }
+
+  .\34xl\:leading-\[7\.8rem\] {
+    line-height: 7.8rem;
   }
 }
