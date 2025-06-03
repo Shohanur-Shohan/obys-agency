@@ -619,6 +619,14 @@ video {
   margin-top: -10px;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-\[-1rem\] {
+  margin-right: -1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -645,6 +653,10 @@ video {
 
 .h-\[50vh\] {
   height: 50vh;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-fit {
