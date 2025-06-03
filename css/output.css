@@ -751,10 +751,6 @@ video {
   border-width: 1.5px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-\[\#ffffff98\] {
   border-color: #ffffff98;
 }
@@ -1091,9 +1087,4 @@ video {
 
   .\34xl\:leading-\[8rem\] {
     line-height: 8rem;
-  }
-
-  .\34xl\:leading-\[7\.8rem\] {
-    line-height: 7.8rem;
-  }
 }
