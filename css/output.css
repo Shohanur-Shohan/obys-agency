@@ -655,13 +655,13 @@ video {
   height: 50vh;
 }
 
-.h-auto {
-  height: auto;
-}
-
 .h-fit {
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .min-h-\[100vh\] {
@@ -1087,4 +1087,5 @@ video {
 
   .\34xl\:leading-\[8rem\] {
     line-height: 8rem;
+  }
 }
