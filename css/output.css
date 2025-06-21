@@ -615,16 +615,16 @@ video {
   margin-left: 30%;
 }
 
-.mt-\[-10px\] {
-  margin-top: -10px;
-}
-
 .ml-auto {
   margin-left: auto;
 }
 
 .mr-\[-1rem\] {
   margin-right: -1rem;
+}
+
+.mt-\[-10px\] {
+  margin-top: -10px;
 }
 
 .flex {
