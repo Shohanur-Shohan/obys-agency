@@ -590,8 +590,48 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.right-\[0\%\] {
+  right: 0%;
+}
+
+.top-\[-20\%\] {
+  top: -20%;
+}
+
+.top-\[-5\%\] {
+  top: -5%;
+}
+
+.left-\[0\] {
+  left: 0;
+}
+
+.right-\[0\] {
+  right: 0;
+}
+
+.right-\[0px\] {
+  right: 0px;
+}
+
+.right-\[20\%\] {
+  right: 20%;
+}
+
+.top-\[-18\%\] {
+  top: -18%;
+}
+
+.top-\[-16\%\] {
+  top: -16%;
 }
 
 .z-\[9999\] {
@@ -615,16 +655,20 @@ video {
   margin-left: 30%;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
 .mr-\[-1rem\] {
   margin-right: -1rem;
 }
 
 .mt-\[-10px\] {
   margin-top: -10px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-\[4rem\] {
+  margin-left: 4rem;
 }
 
 .flex {
@@ -637,6 +681,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.h-32 {
+  height: 8rem;
 }
 
 .h-\[100vh\] {
@@ -664,12 +712,32 @@ video {
   height: fit-content;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[176px\] {
+  height: 176px;
+}
+
+.max-h-\[700px\] {
+  max-height: 700px;
+}
+
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-32 {
+  width: 8rem;
 }
 
 .w-\[200px\] {
@@ -691,6 +759,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[176px\] {
+  width: 176px;
 }
 
 .max-w-\[1760px\] {
@@ -770,6 +842,11 @@ video {
   background-color: rgb(21 21 21 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FFA63D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 166 61 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[\#ff2a2a\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 42 42 / var(--tw-bg-opacity, 1));
@@ -778,6 +855,11 @@ video {
 .bg-\[\#ffffff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
@@ -819,6 +901,11 @@ video {
   padding-bottom: 80px;
 }
 
+.py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -845,6 +932,10 @@ video {
 
 .pt-\[3rem\] {
   padding-top: 3rem;
+}
+
+.pl-\[4rem\] {
+  padding-left: 4rem;
 }
 
 .text-left {
