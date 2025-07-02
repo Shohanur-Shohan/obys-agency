@@ -157,20 +157,23 @@
     <!-- video section start-->
     <div class="w-full bg-[#151515] h-[50vh] sm:h-[60vh] md:h-[80vh]">
       <div>
-        <div class="max-w-[1760px] h-fit pb-[4rem] lg:flex ml-auto items-start justify-between">
+        <div class="w-full h-auto pb-[4rem] lg:flex ml-auto items-start justify-between">
           <div class="flex items-start lg:justify-end lg:w-1/4 lg:pr-[90px]">
             <h1 class="text-white font-LatoLight text-[35px] sm:text-[50px] md:text-[65px]"></h1>
           </div>
           <div class="flex items-start justify-start lg:items-center lg:justify-between lg:w-3/4">
             <!-- //hero text reveal -->
             <!-- removed fixed -->
-              <div id="video-section" class="flex mr-[-1rem] items-center w-full text-white font-PlainRegular">
-                <div class="w-full">
-                    <div class="overflow-hidden uppercase">
-                      <video class="w-full h-auto" autoplay  muted loop playsinline poster="./assets/images/Showreel-preview.jpg">
+              <div id="video-section" class="max-h-[700px] pl-[2.5%] py-[100px] flex mr-[-1rem] items-center w-full text-white font-PlainRegular">
+                <div class="relative w-full h-[700px] ">
+                     
+                      <video class="absolute w-full max-h-[700px] object-cover" autoplay  muted loop playsinline poster="./assets/images/Showreel-preview.jpg">
                         <source type="video/mp4" src="./assets/images/showreel-video.mp4"/>
                       </video>
-                    </div>
+                      <div class="absolute flex items-center justify-center rounded-full top-[-7%] sm:top-[-8%] right-[15%] md:top-[-16%] md:right-[20%] h-[90px] w-[90px] sm:w-[110px] sm:h-[110px] md:h-[160px] md:w-[160px] xl:w-[176px] xl:h-[176px] bg-[#FFA63D] z-[9999]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 md:w-8 md:h-8" viewBox="0 0 320.001 320.001" style="enable-background:new 0 0 512 512" ><g><path d="m295.84 146.049-256-144a16.026 16.026 0 0 0-15.904.128A15.986 15.986 0 0 0 16 16.001v288a15.986 15.986 0 0 0 7.936 13.824A16.144 16.144 0 0 0 32 320.001c2.688 0 5.408-.672 7.84-2.048l256-144c5.024-2.848 8.16-8.16 8.16-13.952s-3.136-11.104-8.16-13.952z" fill="#ffffff" ></path></g></svg>
+                      </div>
+                      
                 </div>
               </div>
             <!-- //loader -->
